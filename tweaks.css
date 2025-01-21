@@ -1,0 +1,44 @@
+#alert-premium {
+  display:none!important;
+}
+
+.toggleSidebarList a button {
+  border-radius:10px!important;
+}
+
+.toggleSidebarList a button span {
+  min-width:20.5px;
+  border-radius:20.5px!important;
+}
+
+.toggleSidebarList a button {
+  background-color:var(--base1-600)!important;
+}
+
+.btn-basic.btn-channel.active {
+  background-color:var(--primary-500)!important;
+}
+
+a:has(button[aria-label="Old App"]) {
+  display:none!important;
+}
+
+[data-sentry-component="GroupChatView"], aside {
+  background:linear-gradient(180deg,var(--base1-850) 0,var(--base1-900) 100%)!important;
+}
+
+[data-sentry-component="GroupChatLayout"] {
+  background:var(--base1-900)!important;
+}
+
+header, .menu {
+  background-color:var(--base1-850)!important;
+}
+
+aside.component.sideInfo.right {
+  max-width:215px;
+}
+
+[data-sentry-component="GroupChatLayout"] > *:has([aria-label="Channels >"]) {
+  min-width:240px!important;
+} 
