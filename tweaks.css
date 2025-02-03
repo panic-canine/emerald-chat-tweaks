@@ -1,3 +1,8 @@
+:root {
+  --base1-850:#16171d!important;
+  --base1-900:#101013!important;
+  --primary-500:#1f7035!important;
+}
 #alert-premium {
   display:none!important;
 }
@@ -42,3 +47,11 @@ aside.component.sideInfo.right {
 [data-sentry-component="GroupChatLayout"] > *:has([aria-label="Channels >"]) {
   min-width:240px!important;
 } 
+
+.dropdown:has([aria-label="Old App"]) {
+  display:none!important;
+}
+
+* {
+  --sb-thumb-color:rgb(from var(--primary-500) r g b / 50%)!important;
+}
